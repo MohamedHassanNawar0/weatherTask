@@ -8,17 +8,7 @@
 
 import UIKit
 import Alamofire
-
-enum RequestMethod: String {
-    case GET, POST, PATCH, DELETE
-}
-
-enum Encoding {
-    case urlEncodedInURL
-    case json
-}
-
-
+// NetWork interface class to request service API using Alamofire
 class NetworkRequest{
     func Request(url : String ,method: HTTPMethod, parameters: [String : Any]?, headers: [String: String]?, completionHundler: @escaping (AFDataResponse<Any>?,ErrorHandler?)->Void){
         print (url)
