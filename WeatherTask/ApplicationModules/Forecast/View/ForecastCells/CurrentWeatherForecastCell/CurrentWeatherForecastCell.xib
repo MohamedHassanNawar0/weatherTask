@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="neosans_regular.ttf">
+            <string>NeoSansW23</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CurrentWeatherForecastCell" rowHeight="308" id="GbE-xO-agR" customClass="CurrentWeatherForecastCell" customModule="WeatherTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="308"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GbE-xO-agR" id="CV7-k9-rfg">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="308"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4nP-aZ-Fmy">
+                        <rect key="frame" x="20" y="0.0" width="374" height="292"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAe-Oo-MfK">
+                                <rect key="frame" x="165.5" y="252" width="43" height="22"/>
+                                <fontDescription key="fontDescription" name="NeoSansW23" family="Neo Sans W23" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tstorm1" translatesAutoresizingMaskIntoConstraints="NO" id="l38-HJ-sJY">
+                                <rect key="frame" x="117" y="0.0" width="140" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="DZe-D6-G2K"/>
+                                    <constraint firstAttribute="height" constant="130" id="cfD-p8-jxa"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pgk-cN-kke">
+                                <rect key="frame" x="150.5" y="150" width="73" height="72"/>
+                                <fontDescription key="fontDescription" name="NeoSansW23" family="Neo Sans W23" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="°" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWq-sR-lfN">
+                                <rect key="frame" x="223.5" y="140" width="24" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="He5-aD-nz3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NeoSansW23" family="Neo Sans W23" pointSize="70"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="l38-HJ-sJY" firstAttribute="centerX" secondItem="4nP-aZ-Fmy" secondAttribute="centerX" id="0Jh-sP-ncb"/>
+                            <constraint firstItem="CAe-Oo-MfK" firstAttribute="top" secondItem="Pgk-cN-kke" secondAttribute="bottom" constant="30" id="0f0-4U-mGF"/>
+                            <constraint firstItem="CAe-Oo-MfK" firstAttribute="centerX" secondItem="Pgk-cN-kke" secondAttribute="centerX" id="5Hd-CM-Ejg"/>
+                            <constraint firstItem="Pgk-cN-kke" firstAttribute="top" secondItem="zWq-sR-lfN" secondAttribute="bottom" constant="-50" id="6Qn-dP-N6l"/>
+                            <constraint firstAttribute="height" constant="292" id="GLM-et-Nvf"/>
+                            <constraint firstItem="Pgk-cN-kke" firstAttribute="top" secondItem="l38-HJ-sJY" secondAttribute="bottom" constant="20" id="M3D-4K-6V9"/>
+                            <constraint firstItem="zWq-sR-lfN" firstAttribute="leading" secondItem="Pgk-cN-kke" secondAttribute="trailing" id="MCK-wo-i37"/>
+                            <constraint firstItem="l38-HJ-sJY" firstAttribute="top" secondItem="4nP-aZ-Fmy" secondAttribute="top" id="gUq-fC-rjL"/>
+                            <constraint firstItem="Pgk-cN-kke" firstAttribute="centerX" secondItem="l38-HJ-sJY" secondAttribute="centerX" id="y7d-K9-hLB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="4nP-aZ-Fmy" secondAttribute="trailing" constant="20" symbolic="YES" id="3bK-yl-yad"/>
+                    <constraint firstItem="4nP-aZ-Fmy" firstAttribute="leading" secondItem="CV7-k9-rfg" secondAttribute="leading" constant="20" symbolic="YES" id="Bad-vC-jLW"/>
+                    <constraint firstItem="4nP-aZ-Fmy" firstAttribute="top" secondItem="CV7-k9-rfg" secondAttribute="top" id="UGI-fl-uea"/>
+                    <constraint firstAttribute="bottom" secondItem="4nP-aZ-Fmy" secondAttribute="bottom" constant="10" id="u3o-3q-N04"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="dateLabel" destination="CAe-Oo-MfK" id="zPd-3d-ezO"/>
+                <outlet property="tempretureImage" destination="l38-HJ-sJY" id="i6n-qd-UBa"/>
+                <outlet property="tempretureLabel" destination="Pgk-cN-kke" id="NcY-hf-iiz"/>
+            </connections>
+            <point key="canvasLocation" x="134.78260869565219" y="-68.973214285714278"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="tstorm1" width="64" height="64"/>
+    </resources>
+</document>

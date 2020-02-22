@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="neosans_regular.ttf">
+            <string>NeoSansW23</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SuggestionTableViewCell" rowHeight="37" id="syo-Vd-VIo" customClass="SuggestionTableViewCell" customModule="WeatherTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="931" height="37"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="syo-Vd-VIo" id="K0x-x9-mbh">
+                <rect key="frame" x="0.0" y="0.0" width="931" height="37"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKj-J7-Xra">
+                        <rect key="frame" x="40" y="10" width="33.5" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="QkJ-Vo-wgP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NeoSansW23" family="Neo Sans W23" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QKj-J7-Xra" firstAttribute="leading" secondItem="K0x-x9-mbh" secondAttribute="leading" constant="40" id="Ehi-Xz-Bt7"/>
+                    <constraint firstAttribute="bottom" secondItem="QKj-J7-Xra" secondAttribute="bottom" constant="10" id="Ws3-au-PJw"/>
+                    <constraint firstItem="QKj-J7-Xra" firstAttribute="top" secondItem="K0x-x9-mbh" secondAttribute="top" constant="10" id="Zw3-xt-uNt"/>
+                    <constraint firstItem="QKj-J7-Xra" firstAttribute="centerY" secondItem="K0x-x9-mbh" secondAttribute="centerY" id="zwz-Vp-u14"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="suggestionCityLabel" destination="QKj-J7-Xra" id="s8P-UF-oXX"/>
+            </connections>
+            <point key="canvasLocation" x="458.69565217391306" y="177.12053571428569"/>
+        </tableViewCell>
+    </objects>
+</document>
