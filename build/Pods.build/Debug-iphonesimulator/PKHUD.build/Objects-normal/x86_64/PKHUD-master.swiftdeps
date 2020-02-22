@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "69e03407f13502073b656804c3150434"
+build_time: [1582398752, 914316000]
+inputs:
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/FrameView.swift": [1582324820, 0]
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/HUD.swift": [1582324820, 0]
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/PKHUD.swift": [1582324820, 0]
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/PKHUDAnimating.swift": [1582324820, 0]
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/PKHUDAnimation.swift": [1582324820, 0]
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/PKHUDAssets.swift": [1582324820, 0]
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/PKHUDErrorView.swift": [1582324820, 0]
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/PKHUDProgressView.swift": [1582324820, 0]
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/PKHUDRotatingImageView.swift": [1582324820, 0]
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/PKHUDSquareBaseView.swift": [1582324820, 0]
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/PKHUDSuccessView.swift": [1582324820, 0]
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/PKHUDSystemActivityIndicatorView.swift": [1582324820, 0]
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/PKHUDTextView.swift": [1582324820, 0]
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/PKHUDWideBaseView.swift": [1582324820, 0]
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/Window.swift": [1582324820, 0]
+  "/Users/MohamedNawar/Desktop/WeatherTask/Pods/PKHUD/PKHUD/WindowRootViewController.swift": [1582324820, 0]

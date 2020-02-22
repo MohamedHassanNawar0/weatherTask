@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "a3bfb2360b4c46a8813a3f8cf8e704d6"
+build_time: [1582382490, 703329000]
+inputs:
+  "/Users/MohamedNawar/Desktop/WeatherTask/WeatherForecastUITests/WeatherForecastUITests.swift": [1582382489, 892872959]

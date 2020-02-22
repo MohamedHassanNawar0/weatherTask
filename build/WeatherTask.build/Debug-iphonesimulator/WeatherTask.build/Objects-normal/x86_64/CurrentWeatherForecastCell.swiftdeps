@@ -1,0 +1,541 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CurrentWeatherForecastCell"
+provides-nominal:
+- "11WeatherTask07CurrentA12ForecastCellC"
+provides-member:
+- ["11WeatherTask07CurrentA12ForecastCellC", ""]
+provides-dynamic-lookup:
+- "dateLabel"
+- "tempretureImage"
+- "tempretureLabel"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CurrentWeatherForecastCell"
+- !private "FloatLiteralType"
+- "ForecastWeatherCell"
+- "Int"
+- !private "IntegerLiteralType"
+- "String"
+- !private "StringLiteralType"
+- !private "UIImage"
+- "UIImageView"
+- "UILabel"
+- "UITableViewCell"
+- !private "print"
+depends-member:
+- !private ["So15CALayerDelegateP", "UIImage"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "dateLabel"]
+- ["So15CALayerDelegateP", "displayDate"]
+- ["So15CALayerDelegateP", "displayImage"]
+- ["So15CALayerDelegateP", "displayTempreture"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "print"]
+- !private ["So15CALayerDelegateP", "tempretureImage"]
+- !private ["So15CALayerDelegateP", "tempretureLabel"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "UIImage"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "dateLabel"]
+- ["s7CVarArgP", "displayDate"]
+- ["s7CVarArgP", "displayImage"]
+- ["s7CVarArgP", "displayTempreture"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "tempretureImage"]
+- !private ["s7CVarArgP", "tempretureLabel"]
+- !private ["s7CVarArgP", "text"]
+- ["11WeatherTask07CurrentA12ForecastCellC", "Int"]
+- ["11WeatherTask07CurrentA12ForecastCellC", "String"]
+- !private ["11WeatherTask07CurrentA12ForecastCellC", "UIImage"]
+- ["11WeatherTask07CurrentA12ForecastCellC", "UIImageView"]
+- ["11WeatherTask07CurrentA12ForecastCellC", "UILabel"]
+- ["11WeatherTask07CurrentA12ForecastCellC", "dateLabel"]
+- ["11WeatherTask07CurrentA12ForecastCellC", "deinit"]
+- ["11WeatherTask07CurrentA12ForecastCellC", "displayDate"]
+- ["11WeatherTask07CurrentA12ForecastCellC", "displayImage"]
+- ["11WeatherTask07CurrentA12ForecastCellC", "displayTempreture"]
+- ["11WeatherTask07CurrentA12ForecastCellC", "init"]
+- !private ["11WeatherTask07CurrentA12ForecastCellC", "print"]
+- ["11WeatherTask07CurrentA12ForecastCellC", "tempretureImage"]
+- ["11WeatherTask07CurrentA12ForecastCellC", "tempretureLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dateLabel"]
+- ["s28CustomDebugStringConvertibleP", "displayDate"]
+- ["s28CustomDebugStringConvertibleP", "displayImage"]
+- ["s28CustomDebugStringConvertibleP", "displayTempreture"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "tempretureImage"]
+- !private ["s28CustomDebugStringConvertibleP", "tempretureLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s17CustomReflectableP", "image"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "dateLabel"]
+- ["s23CustomStringConvertibleP", "displayDate"]
+- ["s23CustomStringConvertibleP", "displayImage"]
+- ["s23CustomStringConvertibleP", "displayTempreture"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "tempretureImage"]
+- !private ["s23CustomStringConvertibleP", "tempretureLabel"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["Se", "image"]
+- !private ["Se", "text"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "image"]
+- !private ["SE", "text"]
+- !private ["SQ", "UIImage"]
+- ["SQ", ""]
+- !private ["SQ", "dateLabel"]
+- ["SQ", "displayDate"]
+- ["SQ", "displayImage"]
+- ["SQ", "displayTempreture"]
+- !private ["SQ", "image"]
+- !private ["SQ", "init"]
+- !private ["SQ", "print"]
+- !private ["SQ", "tempretureImage"]
+- !private ["SQ", "tempretureLabel"]
+- !private ["SQ", "text"]
+- !private ["s23ExpressibleByNilLiteralP", "image"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["11WeatherTask08ForecastA4CellP", "UIImage"]
+- ["11WeatherTask08ForecastA4CellP", ""]
+- !private ["11WeatherTask08ForecastA4CellP", "dateLabel"]
+- ["11WeatherTask08ForecastA4CellP", "displayDate"]
+- ["11WeatherTask08ForecastA4CellP", "displayImage"]
+- ["11WeatherTask08ForecastA4CellP", "displayTempreture"]
+- !private ["11WeatherTask08ForecastA4CellP", "print"]
+- !private ["11WeatherTask08ForecastA4CellP", "tempretureImage"]
+- !private ["11WeatherTask08ForecastA4CellP", "tempretureLabel"]
+- !private ["SH", "UIImage"]
+- ["SH", ""]
+- !private ["SH", "dateLabel"]
+- ["SH", "displayDate"]
+- ["SH", "displayImage"]
+- ["SH", "displayTempreture"]
+- !private ["SH", "image"]
+- !private ["SH", "init"]
+- !private ["SH", "print"]
+- !private ["SH", "tempretureImage"]
+- !private ["SH", "tempretureLabel"]
+- !private ["SH", "text"]
+- !private ["So8NSCodingP", "UIImage"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "dateLabel"]
+- ["So8NSCodingP", "displayDate"]
+- ["So8NSCodingP", "displayImage"]
+- ["So8NSCodingP", "displayTempreture"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "tempretureImage"]
+- !private ["So8NSCodingP", "tempretureLabel"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "dateLabel"]
+- ["So8NSObjectC", "displayDate"]
+- ["So8NSObjectC", "displayImage"]
+- ["So8NSObjectC", "displayTempreture"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "tempretureImage"]
+- ["So8NSObjectC", "tempretureLabel"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectP", "UIImage"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dateLabel"]
+- ["So8NSObjectP", "displayDate"]
+- ["So8NSObjectP", "displayImage"]
+- ["So8NSObjectP", "displayTempreture"]
+- !private ["So8NSObjectP", "image"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "tempretureImage"]
+- !private ["So8NSObjectP", "tempretureLabel"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sq", "image"]
+- !private ["Sq", "text"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImage"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "dateLabel"]
+- ["So29UIAccessibilityIdentificationP", "displayDate"]
+- ["So29UIAccessibilityIdentificationP", "displayImage"]
+- ["So29UIAccessibilityIdentificationP", "displayTempreture"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "print"]
+- !private ["So29UIAccessibilityIdentificationP", "tempretureImage"]
+- !private ["So29UIAccessibilityIdentificationP", "tempretureLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "UIImage"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "dateLabel"]
+- ["So12UIAppearanceP", "displayDate"]
+- ["So12UIAppearanceP", "displayImage"]
+- ["So12UIAppearanceP", "displayTempreture"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "print"]
+- !private ["So12UIAppearanceP", "tempretureImage"]
+- !private ["So12UIAppearanceP", "tempretureLabel"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "dateLabel"]
+- ["So21UIAppearanceContainerP", "displayDate"]
+- ["So21UIAppearanceContainerP", "displayImage"]
+- ["So21UIAppearanceContainerP", "displayTempreture"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "tempretureImage"]
+- !private ["So21UIAppearanceContainerP", "tempretureLabel"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "UIImage"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "dateLabel"]
+- ["So17UICoordinateSpaceP", "displayDate"]
+- ["So17UICoordinateSpaceP", "displayImage"]
+- ["So17UICoordinateSpaceP", "displayTempreture"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "print"]
+- !private ["So17UICoordinateSpaceP", "tempretureImage"]
+- !private ["So17UICoordinateSpaceP", "tempretureLabel"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "UIImage"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "dateLabel"]
+- ["So13UIDynamicItemP", "displayDate"]
+- ["So13UIDynamicItemP", "displayImage"]
+- ["So13UIDynamicItemP", "displayTempreture"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "print"]
+- !private ["So13UIDynamicItemP", "tempretureImage"]
+- !private ["So13UIDynamicItemP", "tempretureLabel"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "dateLabel"]
+- ["So18UIFocusEnvironmentP", "displayDate"]
+- ["So18UIFocusEnvironmentP", "displayImage"]
+- ["So18UIFocusEnvironmentP", "displayTempreture"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "tempretureImage"]
+- !private ["So18UIFocusEnvironmentP", "tempretureLabel"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So11UIFocusItemP", "UIImage"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "dateLabel"]
+- ["So11UIFocusItemP", "displayDate"]
+- ["So11UIFocusItemP", "displayImage"]
+- ["So11UIFocusItemP", "displayTempreture"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "print"]
+- !private ["So11UIFocusItemP", "tempretureImage"]
+- !private ["So11UIFocusItemP", "tempretureLabel"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "UIImage"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "dateLabel"]
+- ["So20UIFocusItemContainerP", "displayDate"]
+- ["So20UIFocusItemContainerP", "displayImage"]
+- ["So20UIFocusItemContainerP", "displayTempreture"]
+- !private ["So20UIFocusItemContainerP", "image"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "print"]
+- !private ["So20UIFocusItemContainerP", "tempretureImage"]
+- !private ["So20UIFocusItemContainerP", "tempretureLabel"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIImage"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "dateLabel"]
+- ["So27UIGestureRecognizerDelegateP", "displayDate"]
+- ["So27UIGestureRecognizerDelegateP", "displayImage"]
+- ["So27UIGestureRecognizerDelegateP", "displayTempreture"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "print"]
+- !private ["So27UIGestureRecognizerDelegateP", "tempretureImage"]
+- !private ["So27UIGestureRecognizerDelegateP", "tempretureLabel"]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "UIImage"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "dateLabel"]
+- ["So24UILargeContentViewerItemP", "displayDate"]
+- ["So24UILargeContentViewerItemP", "displayImage"]
+- ["So24UILargeContentViewerItemP", "displayTempreture"]
+- !private ["So24UILargeContentViewerItemP", "image"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "print"]
+- !private ["So24UILargeContentViewerItemP", "tempretureImage"]
+- !private ["So24UILargeContentViewerItemP", "tempretureLabel"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "dateLabel"]
+- ["So30UIPasteConfigurationSupportingP", "displayDate"]
+- ["So30UIPasteConfigurationSupportingP", "displayImage"]
+- ["So30UIPasteConfigurationSupportingP", "displayTempreture"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "tempretureImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "tempretureLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "dateLabel"]
+- ["So11UIResponderC", "displayDate"]
+- ["So11UIResponderC", "displayImage"]
+- ["So11UIResponderC", "displayTempreture"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "tempretureImage"]
+- ["So11UIResponderC", "tempretureLabel"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "dateLabel"]
+- ["So30UIResponderStandardEditActionsP", "displayDate"]
+- ["So30UIResponderStandardEditActionsP", "displayImage"]
+- ["So30UIResponderStandardEditActionsP", "displayTempreture"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "tempretureImage"]
+- !private ["So30UIResponderStandardEditActionsP", "tempretureLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So15UITableViewCellC", "Int"]
+- ["So15UITableViewCellC", "String"]
+- !private ["So15UITableViewCellC", "UIImage"]
+- ["So15UITableViewCellC", "UIImageView"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "dateLabel"]
+- ["So15UITableViewCellC", "displayDate"]
+- ["So15UITableViewCellC", "displayImage"]
+- ["So15UITableViewCellC", "displayTempreture"]
+- ["So15UITableViewCellC", "init"]
+- !private ["So15UITableViewCellC", "print"]
+- ["So15UITableViewCellC", "tempretureImage"]
+- ["So15UITableViewCellC", "tempretureLabel"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "dateLabel"]
+- ["So18UITraitEnvironmentP", "displayDate"]
+- ["So18UITraitEnvironmentP", "displayImage"]
+- ["So18UITraitEnvironmentP", "displayTempreture"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "tempretureImage"]
+- !private ["So18UITraitEnvironmentP", "tempretureLabel"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So23UIUserActivityRestoringP", "UIImage"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "dateLabel"]
+- ["So23UIUserActivityRestoringP", "displayDate"]
+- ["So23UIUserActivityRestoringP", "displayImage"]
+- ["So23UIUserActivityRestoringP", "displayTempreture"]
+- !private ["So23UIUserActivityRestoringP", "image"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "tempretureImage"]
+- !private ["So23UIUserActivityRestoringP", "tempretureLabel"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- ["So6UIViewC", "Int"]
+- ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "UIImage"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "dateLabel"]
+- ["So6UIViewC", "displayDate"]
+- ["So6UIViewC", "displayImage"]
+- ["So6UIViewC", "displayTempreture"]
+- !private ["So6UIViewC", "image"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "print"]
+- ["So6UIViewC", "tempretureImage"]
+- ["So6UIViewC", "tempretureLabel"]
+- !private ["So6UIViewC", "text"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateLabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "displayDate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "displayImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "displayTempreture"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tempretureImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tempretureLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateLabel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "displayDate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "displayImage"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "displayTempreture"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tempretureImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tempretureLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "image"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIImage"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dateLabel"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "displayDate"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "displayImage"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "displayTempreture"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "print"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "tempretureImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "tempretureLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "11WeatherTask07CurrentA12ForecastCellC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "11WeatherTask08ForecastA4CellP"
+- "SH"
+- "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So7UILabelC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/PKHUD.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD.h"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-umbrella.h"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-Swift.h"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5dadc0ed3a3ce0dc3d0380fe142fcb17"

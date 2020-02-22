@@ -1,0 +1,544 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CitiesTableViewCell"
+provides-nominal:
+- "11WeatherTask19CitiesTableViewCellC"
+provides-member:
+- ["11WeatherTask19CitiesTableViewCellC", ""]
+provides-dynamic-lookup:
+- "cityNameLabel"
+- "dateLabel"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CitiesTableViewCell"
+- "Date"
+- "DateFormatter"
+- "Locale"
+- "MainCitiesCellView"
+- "String"
+- "StringLiteralType"
+- "UILabel"
+- "UITableViewCell"
+depends-member:
+- !private ["So15CALayerDelegateP", "CitiesTableViewCell"]
+- ["So15CALayerDelegateP", "DateFormatter"]
+- ["So15CALayerDelegateP", "Locale"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "cityNameLabel"]
+- !private ["So15CALayerDelegateP", "dateFormatter"]
+- !private ["So15CALayerDelegateP", "dateLabel"]
+- ["So15CALayerDelegateP", "displayCity"]
+- ["So15CALayerDelegateP", "displayDate"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "CitiesTableViewCell"]
+- ["s7CVarArgP", "DateFormatter"]
+- ["s7CVarArgP", "Locale"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "cityNameLabel"]
+- !private ["s7CVarArgP", "dateFormatter"]
+- !private ["s7CVarArgP", "dateLabel"]
+- ["s7CVarArgP", "dateStyle"]
+- ["s7CVarArgP", "displayCity"]
+- ["s7CVarArgP", "displayDate"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "text"]
+- ["s7CVarArgP", "timeStyle"]
+- !private ["11WeatherTask19CitiesTableViewCellC", "CitiesTableViewCell"]
+- ["11WeatherTask19CitiesTableViewCellC", "Date"]
+- ["11WeatherTask19CitiesTableViewCellC", "DateFormatter"]
+- ["11WeatherTask19CitiesTableViewCellC", "Locale"]
+- ["11WeatherTask19CitiesTableViewCellC", "String"]
+- ["11WeatherTask19CitiesTableViewCellC", "UILabel"]
+- ["11WeatherTask19CitiesTableViewCellC", "cityNameLabel"]
+- ["11WeatherTask19CitiesTableViewCellC", "dateFormatter"]
+- ["11WeatherTask19CitiesTableViewCellC", "dateLabel"]
+- ["11WeatherTask19CitiesTableViewCellC", "deinit"]
+- ["11WeatherTask19CitiesTableViewCellC", "displayCity"]
+- ["11WeatherTask19CitiesTableViewCellC", "displayDate"]
+- ["11WeatherTask19CitiesTableViewCellC", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CitiesTableViewCell"]
+- ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- ["s28CustomDebugStringConvertibleP", "Locale"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "cityNameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "dateLabel"]
+- ["s28CustomDebugStringConvertibleP", "dateStyle"]
+- ["s28CustomDebugStringConvertibleP", "displayCity"]
+- ["s28CustomDebugStringConvertibleP", "displayDate"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- ["s28CustomDebugStringConvertibleP", "timeStyle"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "CitiesTableViewCell"]
+- ["s23CustomStringConvertibleP", "DateFormatter"]
+- ["s23CustomStringConvertibleP", "Locale"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "cityNameLabel"]
+- !private ["s23CustomStringConvertibleP", "dateFormatter"]
+- !private ["s23CustomStringConvertibleP", "dateLabel"]
+- ["s23CustomStringConvertibleP", "dateStyle"]
+- ["s23CustomStringConvertibleP", "displayCity"]
+- ["s23CustomStringConvertibleP", "displayDate"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- ["s23CustomStringConvertibleP", "timeStyle"]
+- ["So15NSDateFormatterC", "dateStyle"]
+- ["So15NSDateFormatterC", "init"]
+- ["So15NSDateFormatterC", "locale"]
+- !private ["So15NSDateFormatterC", "string"]
+- ["So15NSDateFormatterC", "timeStyle"]
+- ["Se", "init"]
+- !private ["Se", "text"]
+- ["SE", "init"]
+- !private ["SE", "text"]
+- !private ["SQ", "CitiesTableViewCell"]
+- ["SQ", "DateFormatter"]
+- ["SQ", "Locale"]
+- ["SQ", ""]
+- !private ["SQ", "cityNameLabel"]
+- !private ["SQ", "dateFormatter"]
+- !private ["SQ", "dateLabel"]
+- ["SQ", "dateStyle"]
+- ["SQ", "displayCity"]
+- ["SQ", "displayDate"]
+- ["SQ", "init"]
+- ["SQ", "locale"]
+- ["SQ", "short"]
+- !private ["SQ", "string"]
+- !private ["SQ", "text"]
+- ["SQ", "timeStyle"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- ["So11NSFormatterC", "dateStyle"]
+- ["So11NSFormatterC", "init"]
+- ["So11NSFormatterC", "locale"]
+- !private ["So11NSFormatterC", "string"]
+- ["So11NSFormatterC", "timeStyle"]
+- !private ["SH", "CitiesTableViewCell"]
+- ["SH", "DateFormatter"]
+- ["SH", "Locale"]
+- ["SH", ""]
+- !private ["SH", "cityNameLabel"]
+- !private ["SH", "dateFormatter"]
+- !private ["SH", "dateLabel"]
+- ["SH", "dateStyle"]
+- ["SH", "displayCity"]
+- ["SH", "displayDate"]
+- ["SH", "init"]
+- ["SH", "locale"]
+- ["SH", "short"]
+- !private ["SH", "string"]
+- !private ["SH", "text"]
+- ["SH", "timeStyle"]
+- ["10Foundation6LocaleV", "init"]
+- !private ["11WeatherTask18MainCitiesCellViewP", "CitiesTableViewCell"]
+- ["11WeatherTask18MainCitiesCellViewP", "DateFormatter"]
+- ["11WeatherTask18MainCitiesCellViewP", "Locale"]
+- ["11WeatherTask18MainCitiesCellViewP", ""]
+- !private ["11WeatherTask18MainCitiesCellViewP", "cityNameLabel"]
+- !private ["11WeatherTask18MainCitiesCellViewP", "dateFormatter"]
+- !private ["11WeatherTask18MainCitiesCellViewP", "dateLabel"]
+- ["11WeatherTask18MainCitiesCellViewP", "displayCity"]
+- ["11WeatherTask18MainCitiesCellViewP", "displayDate"]
+- !private ["So8NSCodingP", "CitiesTableViewCell"]
+- ["So8NSCodingP", "DateFormatter"]
+- ["So8NSCodingP", "Locale"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "cityNameLabel"]
+- !private ["So8NSCodingP", "dateFormatter"]
+- !private ["So8NSCodingP", "dateLabel"]
+- ["So8NSCodingP", "dateStyle"]
+- ["So8NSCodingP", "displayCity"]
+- ["So8NSCodingP", "displayDate"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSCodingP", "timeStyle"]
+- ["So9NSCopyingP", "dateStyle"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "string"]
+- ["So9NSCopyingP", "timeStyle"]
+- !private ["So8NSObjectC", "CitiesTableViewCell"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "DateFormatter"]
+- ["So8NSObjectC", "Locale"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "cityNameLabel"]
+- ["So8NSObjectC", "dateFormatter"]
+- ["So8NSObjectC", "dateLabel"]
+- ["So8NSObjectC", "dateStyle"]
+- ["So8NSObjectC", "displayCity"]
+- ["So8NSObjectC", "displayDate"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "locale"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "timeStyle"]
+- !private ["So8NSObjectP", "CitiesTableViewCell"]
+- ["So8NSObjectP", "DateFormatter"]
+- ["So8NSObjectP", "Locale"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "cityNameLabel"]
+- !private ["So8NSObjectP", "dateFormatter"]
+- !private ["So8NSObjectP", "dateLabel"]
+- ["So8NSObjectP", "dateStyle"]
+- ["So8NSObjectP", "displayCity"]
+- ["So8NSObjectP", "displayDate"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "locale"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "text"]
+- ["So8NSObjectP", "timeStyle"]
+- !private ["Sq", "text"]
+- ["SY", "short"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["So20NSDateFormatterStyleV", "short"]
+- !private ["So29UIAccessibilityIdentificationP", "CitiesTableViewCell"]
+- ["So29UIAccessibilityIdentificationP", "DateFormatter"]
+- ["So29UIAccessibilityIdentificationP", "Locale"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "cityNameLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "dateFormatter"]
+- !private ["So29UIAccessibilityIdentificationP", "dateLabel"]
+- ["So29UIAccessibilityIdentificationP", "displayCity"]
+- ["So29UIAccessibilityIdentificationP", "displayDate"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "CitiesTableViewCell"]
+- ["So12UIAppearanceP", "DateFormatter"]
+- ["So12UIAppearanceP", "Locale"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "cityNameLabel"]
+- !private ["So12UIAppearanceP", "dateFormatter"]
+- !private ["So12UIAppearanceP", "dateLabel"]
+- ["So12UIAppearanceP", "displayCity"]
+- ["So12UIAppearanceP", "displayDate"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "CitiesTableViewCell"]
+- ["So21UIAppearanceContainerP", "DateFormatter"]
+- ["So21UIAppearanceContainerP", "Locale"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "cityNameLabel"]
+- !private ["So21UIAppearanceContainerP", "dateFormatter"]
+- !private ["So21UIAppearanceContainerP", "dateLabel"]
+- ["So21UIAppearanceContainerP", "displayCity"]
+- ["So21UIAppearanceContainerP", "displayDate"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "CitiesTableViewCell"]
+- ["So17UICoordinateSpaceP", "DateFormatter"]
+- ["So17UICoordinateSpaceP", "Locale"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "cityNameLabel"]
+- !private ["So17UICoordinateSpaceP", "dateFormatter"]
+- !private ["So17UICoordinateSpaceP", "dateLabel"]
+- ["So17UICoordinateSpaceP", "displayCity"]
+- ["So17UICoordinateSpaceP", "displayDate"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "CitiesTableViewCell"]
+- ["So13UIDynamicItemP", "DateFormatter"]
+- ["So13UIDynamicItemP", "Locale"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "cityNameLabel"]
+- !private ["So13UIDynamicItemP", "dateFormatter"]
+- !private ["So13UIDynamicItemP", "dateLabel"]
+- ["So13UIDynamicItemP", "displayCity"]
+- ["So13UIDynamicItemP", "displayDate"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "CitiesTableViewCell"]
+- ["So18UIFocusEnvironmentP", "DateFormatter"]
+- ["So18UIFocusEnvironmentP", "Locale"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "cityNameLabel"]
+- !private ["So18UIFocusEnvironmentP", "dateFormatter"]
+- !private ["So18UIFocusEnvironmentP", "dateLabel"]
+- ["So18UIFocusEnvironmentP", "displayCity"]
+- ["So18UIFocusEnvironmentP", "displayDate"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So11UIFocusItemP", "CitiesTableViewCell"]
+- ["So11UIFocusItemP", "DateFormatter"]
+- ["So11UIFocusItemP", "Locale"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "cityNameLabel"]
+- !private ["So11UIFocusItemP", "dateFormatter"]
+- !private ["So11UIFocusItemP", "dateLabel"]
+- ["So11UIFocusItemP", "displayCity"]
+- ["So11UIFocusItemP", "displayDate"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "CitiesTableViewCell"]
+- ["So20UIFocusItemContainerP", "DateFormatter"]
+- ["So20UIFocusItemContainerP", "Locale"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "cityNameLabel"]
+- !private ["So20UIFocusItemContainerP", "dateFormatter"]
+- !private ["So20UIFocusItemContainerP", "dateLabel"]
+- ["So20UIFocusItemContainerP", "displayCity"]
+- ["So20UIFocusItemContainerP", "displayDate"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So27UIGestureRecognizerDelegateP", "CitiesTableViewCell"]
+- ["So27UIGestureRecognizerDelegateP", "DateFormatter"]
+- ["So27UIGestureRecognizerDelegateP", "Locale"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "cityNameLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "dateFormatter"]
+- !private ["So27UIGestureRecognizerDelegateP", "dateLabel"]
+- ["So27UIGestureRecognizerDelegateP", "displayCity"]
+- ["So27UIGestureRecognizerDelegateP", "displayDate"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "CitiesTableViewCell"]
+- ["So24UILargeContentViewerItemP", "DateFormatter"]
+- ["So24UILargeContentViewerItemP", "Locale"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "cityNameLabel"]
+- !private ["So24UILargeContentViewerItemP", "dateFormatter"]
+- !private ["So24UILargeContentViewerItemP", "dateLabel"]
+- ["So24UILargeContentViewerItemP", "displayCity"]
+- ["So24UILargeContentViewerItemP", "displayDate"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "CitiesTableViewCell"]
+- ["So30UIPasteConfigurationSupportingP", "DateFormatter"]
+- ["So30UIPasteConfigurationSupportingP", "Locale"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "cityNameLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "dateFormatter"]
+- !private ["So30UIPasteConfigurationSupportingP", "dateLabel"]
+- ["So30UIPasteConfigurationSupportingP", "displayCity"]
+- ["So30UIPasteConfigurationSupportingP", "displayDate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So11UIResponderC", "CitiesTableViewCell"]
+- ["So11UIResponderC", "Date"]
+- ["So11UIResponderC", "DateFormatter"]
+- ["So11UIResponderC", "Locale"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "cityNameLabel"]
+- ["So11UIResponderC", "dateFormatter"]
+- ["So11UIResponderC", "dateLabel"]
+- ["So11UIResponderC", "displayCity"]
+- ["So11UIResponderC", "displayDate"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "CitiesTableViewCell"]
+- ["So30UIResponderStandardEditActionsP", "DateFormatter"]
+- ["So30UIResponderStandardEditActionsP", "Locale"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "cityNameLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "dateFormatter"]
+- !private ["So30UIResponderStandardEditActionsP", "dateLabel"]
+- ["So30UIResponderStandardEditActionsP", "displayCity"]
+- ["So30UIResponderStandardEditActionsP", "displayDate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So15UITableViewCellC", "CitiesTableViewCell"]
+- ["So15UITableViewCellC", "Date"]
+- ["So15UITableViewCellC", "DateFormatter"]
+- ["So15UITableViewCellC", "Locale"]
+- ["So15UITableViewCellC", "String"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "cityNameLabel"]
+- ["So15UITableViewCellC", "dateFormatter"]
+- ["So15UITableViewCellC", "dateLabel"]
+- ["So15UITableViewCellC", "displayCity"]
+- ["So15UITableViewCellC", "displayDate"]
+- ["So15UITableViewCellC", "init"]
+- !private ["So18UITraitEnvironmentP", "CitiesTableViewCell"]
+- ["So18UITraitEnvironmentP", "DateFormatter"]
+- ["So18UITraitEnvironmentP", "Locale"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "cityNameLabel"]
+- !private ["So18UITraitEnvironmentP", "dateFormatter"]
+- !private ["So18UITraitEnvironmentP", "dateLabel"]
+- ["So18UITraitEnvironmentP", "displayCity"]
+- ["So18UITraitEnvironmentP", "displayDate"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So23UIUserActivityRestoringP", "CitiesTableViewCell"]
+- ["So23UIUserActivityRestoringP", "DateFormatter"]
+- ["So23UIUserActivityRestoringP", "Locale"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "cityNameLabel"]
+- !private ["So23UIUserActivityRestoringP", "dateFormatter"]
+- !private ["So23UIUserActivityRestoringP", "dateLabel"]
+- ["So23UIUserActivityRestoringP", "displayCity"]
+- ["So23UIUserActivityRestoringP", "displayDate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So6UIViewC", "CitiesTableViewCell"]
+- ["So6UIViewC", "Date"]
+- ["So6UIViewC", "DateFormatter"]
+- ["So6UIViewC", "Locale"]
+- ["So6UIViewC", "String"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "cityNameLabel"]
+- ["So6UIViewC", "dateFormatter"]
+- ["So6UIViewC", "dateLabel"]
+- ["So6UIViewC", "displayCity"]
+- ["So6UIViewC", "displayDate"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CitiesTableViewCell"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Locale"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cityNameLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateLabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dateStyle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "displayCity"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "displayDate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "timeStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CitiesTableViewCell"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DateFormatter"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Locale"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cityNameLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateFormatter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateLabel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateStyle"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "displayCity"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "displayDate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locale"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timeStyle"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "CitiesTableViewCell"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "DateFormatter"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "Locale"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "cityNameLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dateFormatter"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dateLabel"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "displayCity"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "displayDate"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "11WeatherTask19CitiesTableViewCellC"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "So15NSDateFormatterC"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "So11NSFormatterC"
+- "SH"
+- "10Foundation6LocaleV"
+- "11WeatherTask18MainCitiesCellViewP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "So20NSDateFormatterStyleV"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/PKHUD.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD.h"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-umbrella.h"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-Swift.h"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bcca82a5b938c4e1f7e3fdaddc74fc0e"

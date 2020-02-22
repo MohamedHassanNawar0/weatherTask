@@ -9,7 +9,7 @@
 import UIKit
 //MARK: - Base view controller to my view controller
 class BaseViewController: UIViewController {
-
+    
        override func viewDidAppear(_ animated: Bool) {
           self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
           self.navigationController?.navigationBar.shadowImage = UIImage()

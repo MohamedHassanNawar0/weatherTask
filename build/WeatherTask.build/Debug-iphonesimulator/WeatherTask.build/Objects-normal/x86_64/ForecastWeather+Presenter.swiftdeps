@@ -1,0 +1,356 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "11WeatherTask22ForecastViewControllerC"
+provides-member:
+- ["11WeatherTask22ForecastViewControllerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- "ForecastViewController"
+- "ForecastWeatherView"
+- !private "HUD"
+- "String"
+depends-member:
+- !private ["11WeatherTask18BaseViewControllerC", "HUD"]
+- ["11WeatherTask18BaseViewControllerC", "String"]
+- !private ["11WeatherTask18BaseViewControllerC", "activityIndicator"]
+- ["11WeatherTask18BaseViewControllerC", "fetchingDataSuccess"]
+- !private ["11WeatherTask18BaseViewControllerC", "forecastTableView"]
+- ["11WeatherTask18BaseViewControllerC", "hideIndicator"]
+- ["11WeatherTask18BaseViewControllerC", "showIndicator"]
+- ["11WeatherTask18BaseViewControllerC", "showMessage"]
+- !private ["So15CALayerDelegateP", "reloadData"]
+- !private ["s7CVarArgP", "HUD"]
+- !private ["s7CVarArgP", "activityIndicator"]
+- ["s7CVarArgP", "fetchingDataSuccess"]
+- !private ["s7CVarArgP", "forecastTableView"]
+- ["s7CVarArgP", "hideIndicator"]
+- !private ["s7CVarArgP", "reloadData"]
+- ["s7CVarArgP", "showIndicator"]
+- ["s7CVarArgP", "showMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "HUD"]
+- !private ["s28CustomDebugStringConvertibleP", "activityIndicator"]
+- ["s28CustomDebugStringConvertibleP", "fetchingDataSuccess"]
+- !private ["s28CustomDebugStringConvertibleP", "forecastTableView"]
+- ["s28CustomDebugStringConvertibleP", "hideIndicator"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadData"]
+- ["s28CustomDebugStringConvertibleP", "showIndicator"]
+- ["s28CustomDebugStringConvertibleP", "showMessage"]
+- !private ["s17CustomReflectableP", "reloadData"]
+- !private ["s23CustomStringConvertibleP", "HUD"]
+- !private ["s23CustomStringConvertibleP", "activityIndicator"]
+- ["s23CustomStringConvertibleP", "fetchingDataSuccess"]
+- !private ["s23CustomStringConvertibleP", "forecastTableView"]
+- ["s23CustomStringConvertibleP", "hideIndicator"]
+- !private ["s23CustomStringConvertibleP", "reloadData"]
+- ["s23CustomStringConvertibleP", "showIndicator"]
+- ["s23CustomStringConvertibleP", "showMessage"]
+- !private ["Se", "reloadData"]
+- !private ["SE", "reloadData"]
+- !private ["SQ", "HUD"]
+- !private ["SQ", "activityIndicator"]
+- ["SQ", "fetchingDataSuccess"]
+- !private ["SQ", "forecastTableView"]
+- ["SQ", "hideIndicator"]
+- !private ["SQ", "reloadData"]
+- ["SQ", "showIndicator"]
+- ["SQ", "showMessage"]
+- !private ["s23ExpressibleByNilLiteralP", "reloadData"]
+- !private ["11WeatherTask22ForecastViewControllerC", "HUD"]
+- ["11WeatherTask22ForecastViewControllerC", "String"]
+- !private ["11WeatherTask22ForecastViewControllerC", "activityIndicator"]
+- ["11WeatherTask22ForecastViewControllerC", "deinit"]
+- ["11WeatherTask22ForecastViewControllerC", "fetchingDataSuccess"]
+- !private ["11WeatherTask22ForecastViewControllerC", "forecastTableView"]
+- ["11WeatherTask22ForecastViewControllerC", "hideIndicator"]
+- ["11WeatherTask22ForecastViewControllerC", "showIndicator"]
+- ["11WeatherTask22ForecastViewControllerC", "showMessage"]
+- !private ["11WeatherTask08ForecastA4ViewP", "HUD"]
+- ["11WeatherTask08ForecastA4ViewP", ""]
+- !private ["11WeatherTask08ForecastA4ViewP", "activityIndicator"]
+- ["11WeatherTask08ForecastA4ViewP", "fetchingDataSuccess"]
+- !private ["11WeatherTask08ForecastA4ViewP", "forecastTableView"]
+- ["11WeatherTask08ForecastA4ViewP", "hideIndicator"]
+- ["11WeatherTask08ForecastA4ViewP", "showIndicator"]
+- ["11WeatherTask08ForecastA4ViewP", "showMessage"]
+- !private ["5PKHUD3HUDC", "flash"]
+- !private ["5PKHUD14HUDContentTypeO", "label"]
+- !private ["SH", "HUD"]
+- !private ["SH", "activityIndicator"]
+- ["SH", "fetchingDataSuccess"]
+- !private ["SH", "forecastTableView"]
+- ["SH", "hideIndicator"]
+- !private ["SH", "reloadData"]
+- ["SH", "showIndicator"]
+- ["SH", "showMessage"]
+- !private ["So8NSCodingP", "HUD"]
+- !private ["So8NSCodingP", "activityIndicator"]
+- ["So8NSCodingP", "fetchingDataSuccess"]
+- !private ["So8NSCodingP", "forecastTableView"]
+- ["So8NSCodingP", "hideIndicator"]
+- !private ["So8NSCodingP", "reloadData"]
+- ["So8NSCodingP", "showIndicator"]
+- ["So8NSCodingP", "showMessage"]
+- !private ["So26NSExtensionRequestHandlingP", "HUD"]
+- !private ["So26NSExtensionRequestHandlingP", "activityIndicator"]
+- ["So26NSExtensionRequestHandlingP", "fetchingDataSuccess"]
+- !private ["So26NSExtensionRequestHandlingP", "forecastTableView"]
+- ["So26NSExtensionRequestHandlingP", "hideIndicator"]
+- ["So26NSExtensionRequestHandlingP", "showIndicator"]
+- ["So26NSExtensionRequestHandlingP", "showMessage"]
+- !private ["So8NSObjectC", "HUD"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "activityIndicator"]
+- ["So8NSObjectC", "fetchingDataSuccess"]
+- !private ["So8NSObjectC", "forecastTableView"]
+- ["So8NSObjectC", "hideIndicator"]
+- !private ["So8NSObjectC", "reloadData"]
+- ["So8NSObjectC", "showIndicator"]
+- ["So8NSObjectC", "showMessage"]
+- !private ["So8NSObjectP", "HUD"]
+- !private ["So8NSObjectP", "activityIndicator"]
+- ["So8NSObjectP", "fetchingDataSuccess"]
+- !private ["So8NSObjectP", "forecastTableView"]
+- ["So8NSObjectP", "hideIndicator"]
+- !private ["So8NSObjectP", "reloadData"]
+- ["So8NSObjectP", "showIndicator"]
+- ["So8NSObjectP", "showMessage"]
+- !private ["Sq", "reloadData"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadData"]
+- !private ["So12UIAppearanceP", "reloadData"]
+- !private ["So21UIAppearanceContainerP", "HUD"]
+- !private ["So21UIAppearanceContainerP", "activityIndicator"]
+- ["So21UIAppearanceContainerP", "fetchingDataSuccess"]
+- !private ["So21UIAppearanceContainerP", "forecastTableView"]
+- ["So21UIAppearanceContainerP", "hideIndicator"]
+- !private ["So21UIAppearanceContainerP", "reloadData"]
+- ["So21UIAppearanceContainerP", "showIndicator"]
+- ["So21UIAppearanceContainerP", "showMessage"]
+- !private ["So18UIContentContainerP", "HUD"]
+- !private ["So18UIContentContainerP", "activityIndicator"]
+- ["So18UIContentContainerP", "fetchingDataSuccess"]
+- !private ["So18UIContentContainerP", "forecastTableView"]
+- ["So18UIContentContainerP", "hideIndicator"]
+- ["So18UIContentContainerP", "showIndicator"]
+- ["So18UIContentContainerP", "showMessage"]
+- !private ["So17UICoordinateSpaceP", "reloadData"]
+- !private ["So23UIDataSourceTranslatingP", "reloadData"]
+- !private ["So13UIDynamicItemP", "reloadData"]
+- !private ["So18UIFocusEnvironmentP", "HUD"]
+- !private ["So18UIFocusEnvironmentP", "activityIndicator"]
+- ["So18UIFocusEnvironmentP", "fetchingDataSuccess"]
+- !private ["So18UIFocusEnvironmentP", "forecastTableView"]
+- ["So18UIFocusEnvironmentP", "hideIndicator"]
+- !private ["So18UIFocusEnvironmentP", "reloadData"]
+- ["So18UIFocusEnvironmentP", "showIndicator"]
+- ["So18UIFocusEnvironmentP", "showMessage"]
+- !private ["So11UIFocusItemP", "reloadData"]
+- !private ["So20UIFocusItemContainerP", "reloadData"]
+- !private ["So30UIFocusItemScrollableContainerP", "reloadData"]
+- !private ["So24UILargeContentViewerItemP", "reloadData"]
+- !private ["So30UIPasteConfigurationSupportingP", "HUD"]
+- !private ["So30UIPasteConfigurationSupportingP", "activityIndicator"]
+- ["So30UIPasteConfigurationSupportingP", "fetchingDataSuccess"]
+- !private ["So30UIPasteConfigurationSupportingP", "forecastTableView"]
+- ["So30UIPasteConfigurationSupportingP", "hideIndicator"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadData"]
+- ["So30UIPasteConfigurationSupportingP", "showIndicator"]
+- ["So30UIPasteConfigurationSupportingP", "showMessage"]
+- !private ["So11UIResponderC", "HUD"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "activityIndicator"]
+- ["So11UIResponderC", "fetchingDataSuccess"]
+- !private ["So11UIResponderC", "forecastTableView"]
+- ["So11UIResponderC", "hideIndicator"]
+- !private ["So11UIResponderC", "reloadData"]
+- ["So11UIResponderC", "showIndicator"]
+- ["So11UIResponderC", "showMessage"]
+- !private ["So30UIResponderStandardEditActionsP", "HUD"]
+- !private ["So30UIResponderStandardEditActionsP", "activityIndicator"]
+- ["So30UIResponderStandardEditActionsP", "fetchingDataSuccess"]
+- !private ["So30UIResponderStandardEditActionsP", "forecastTableView"]
+- ["So30UIResponderStandardEditActionsP", "hideIndicator"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadData"]
+- ["So30UIResponderStandardEditActionsP", "showIndicator"]
+- ["So30UIResponderStandardEditActionsP", "showMessage"]
+- !private ["So12UIScrollViewC", "reloadData"]
+- !private ["So20UIScrollViewDelegateP", "HUD"]
+- !private ["So20UIScrollViewDelegateP", "activityIndicator"]
+- ["So20UIScrollViewDelegateP", "fetchingDataSuccess"]
+- !private ["So20UIScrollViewDelegateP", "forecastTableView"]
+- ["So20UIScrollViewDelegateP", "hideIndicator"]
+- ["So20UIScrollViewDelegateP", "showIndicator"]
+- ["So20UIScrollViewDelegateP", "showMessage"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
+- !private ["So16UIStateRestoringP", "HUD"]
+- !private ["So16UIStateRestoringP", "activityIndicator"]
+- ["So16UIStateRestoringP", "fetchingDataSuccess"]
+- !private ["So16UIStateRestoringP", "forecastTableView"]
+- ["So16UIStateRestoringP", "hideIndicator"]
+- ["So16UIStateRestoringP", "showIndicator"]
+- ["So16UIStateRestoringP", "showMessage"]
+- !private ["So11UITableViewC", "reloadData"]
+- !private ["So21UITableViewDataSourceP", "HUD"]
+- !private ["So21UITableViewDataSourceP", "activityIndicator"]
+- ["So21UITableViewDataSourceP", "fetchingDataSuccess"]
+- !private ["So21UITableViewDataSourceP", "forecastTableView"]
+- ["So21UITableViewDataSourceP", "hideIndicator"]
+- ["So21UITableViewDataSourceP", "showIndicator"]
+- ["So21UITableViewDataSourceP", "showMessage"]
+- !private ["So19UITableViewDelegateP", "HUD"]
+- !private ["So19UITableViewDelegateP", "activityIndicator"]
+- ["So19UITableViewDelegateP", "fetchingDataSuccess"]
+- !private ["So19UITableViewDelegateP", "forecastTableView"]
+- ["So19UITableViewDelegateP", "hideIndicator"]
+- ["So19UITableViewDelegateP", "showIndicator"]
+- ["So19UITableViewDelegateP", "showMessage"]
+- !private ["So18UITraitEnvironmentP", "HUD"]
+- !private ["So18UITraitEnvironmentP", "activityIndicator"]
+- ["So18UITraitEnvironmentP", "fetchingDataSuccess"]
+- !private ["So18UITraitEnvironmentP", "forecastTableView"]
+- ["So18UITraitEnvironmentP", "hideIndicator"]
+- !private ["So18UITraitEnvironmentP", "reloadData"]
+- ["So18UITraitEnvironmentP", "showIndicator"]
+- ["So18UITraitEnvironmentP", "showMessage"]
+- !private ["So23UIUserActivityRestoringP", "HUD"]
+- !private ["So23UIUserActivityRestoringP", "activityIndicator"]
+- ["So23UIUserActivityRestoringP", "fetchingDataSuccess"]
+- !private ["So23UIUserActivityRestoringP", "forecastTableView"]
+- ["So23UIUserActivityRestoringP", "hideIndicator"]
+- !private ["So23UIUserActivityRestoringP", "reloadData"]
+- ["So23UIUserActivityRestoringP", "showIndicator"]
+- ["So23UIUserActivityRestoringP", "showMessage"]
+- !private ["So6UIViewC", "reloadData"]
+- !private ["So16UIViewControllerC", "HUD"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "activityIndicator"]
+- ["So16UIViewControllerC", "fetchingDataSuccess"]
+- !private ["So16UIViewControllerC", "forecastTableView"]
+- ["So16UIViewControllerC", "hideIndicator"]
+- ["So16UIViewControllerC", "showIndicator"]
+- ["So16UIViewControllerC", "showMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HUD"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activityIndicator"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "fetchingDataSuccess"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "forecastTableView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "hideIndicator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "showIndicator"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "showMessage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "HUD"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activityIndicator"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetchingDataSuccess"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "forecastTableView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hideIndicator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reloadData"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showIndicator"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showMessage"]
+- !private ["s21_ObjectiveCBridgeableP", "reloadData"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "reloadData"]
+depends-nominal:
+- "11WeatherTask18BaseViewControllerC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "11WeatherTask22ForecastViewControllerC"
+- "11WeatherTask08ForecastA4ViewP"
+- !private "5PKHUD3HUDC"
+- !private "5PKHUD14HUDContentTypeO"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So11UITableViewC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/PKHUD.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD.h"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-umbrella.h"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-Swift.h"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "dd26f6cea0166e356d575988116d7684"

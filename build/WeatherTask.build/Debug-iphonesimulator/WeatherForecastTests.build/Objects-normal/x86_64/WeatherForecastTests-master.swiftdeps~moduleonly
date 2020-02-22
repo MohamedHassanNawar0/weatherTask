@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "3db9089169e8875dad15df43751c09fd"
+build_time: [1582388983, 691803000]
+inputs:
+  "/Users/MohamedNawar/Desktop/WeatherTask/WeatherForecastTests/suggestedCitiesTests.swift": [1582384410, 993835791]
+  "/Users/MohamedNawar/Desktop/WeatherTask/WeatherForecastTests/SortedDataTests.swift": [1582388979, 810994657]
+  "/Users/MohamedNawar/Desktop/WeatherTask/WeatherForecastTests/WeatherForecastTests.swift": [1582384558, 411774560]
