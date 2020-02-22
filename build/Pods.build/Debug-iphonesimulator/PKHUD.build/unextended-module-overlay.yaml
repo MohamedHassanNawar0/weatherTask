@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': "/Users/MohamedNawar/Desktop/WeatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules"
+    'name': "/Users/MohamedNawar/Desktop/weatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules"
     'contents': [{
       'type': 'file',
       'name': "module.modulemap",
-      'external-contents': "/Users/MohamedNawar/Desktop/WeatherTask/build/Pods.build/Debug-iphonesimulator/PKHUD.build/unextended-module.modulemap",
+      'external-contents': "/Users/MohamedNawar/Desktop/weatherTask/build/Pods.build/Debug-iphonesimulator/PKHUD.build/unextended-module.modulemap",
     }]
   }]
 }

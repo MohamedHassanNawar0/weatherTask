@@ -1256,7 +1256,6 @@ depends-member:
 - ["9Alamofire21URLEncodedFormEncoderC", "boolEncoding"]
 - ["9Alamofire21URLEncodedFormEncoderC", "dataEncoding"]
 - ["9Alamofire21URLEncodedFormEncoderC", "dateEncoding"]
-- ["9Alamofire21URLEncodedFormEncoderC", "deinit"]
 - ["9Alamofire21URLEncodedFormEncoderC", "encode"]
 - ["9Alamofire21URLEncodedFormEncoderC", "init"]
 - ["9Alamofire21URLEncodedFormEncoderC", "keyEncoding"]
@@ -1675,6 +1674,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/WeatherTask/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
 - "/Users/MohamedNawar/Desktop/WeatherTask/build/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap"
+- "/Users/MohamedNawar/Desktop/weatherTask/build/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"

@@ -40,7 +40,7 @@ protocol CityListModelInput {
         if checkIfCityIsAlreadySaved(name: name) {
             print(name)
             completion("This city has already been saved")
-        }else if getSortedCities().count > 3 {
+        }else if getSortedCities().count >= 3 {
             completion("You have 3 cities saved, and you have to add up to 3 cities only")
         }else{
             storeCity(name: name, tempreture: tempreture)
