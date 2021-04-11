@@ -14,14 +14,10 @@ protocol APIServiceForecastWeatherProtocol {
 }
 
 class ForecastInteractor: APIServiceForecastWeatherProtocol {
-
-    fileprivate let AppId = "e72ca729af228beabd5d20e3b7749713"
-    fileprivate let weatherForecastEndpoint = "http://api.openweathermap.org/data/2.5/forecast"
     
     // Simulate a long waiting for fetching forecast weather for selected city
-    func getForecastWeather(cityName: String, completionHundler: @escaping (ForecastDataModel?, String?) -> Void) {
-         let par = ["q":"\(cityName)" , "appid" : AppId]
-      NetworkRequest().Request(url: weatherForecastEndpoint, method: .get, parameters: par, headers: nil){
+    internal func getForecastWeather(cityName: String, completionHundler: @escaping (ForecastDataModel?, String?) -> Void) {
+        NetworkRequest().Request(url: APIs.Instance.getForecastBaseURL(selectedCity: cityName), method: .get, parameters: nil, headers: APIs.Instance.getHeader()){
             response , error in
             if response == nil && error == nil{
                 completionHundler(nil,nil)
@@ -42,7 +38,7 @@ class ForecastInteractor: APIServiceForecastWeatherProtocol {
         }
     }
     //method used to parse respone
-    func parseJSON(data : Data , completionHundler: @escaping (ForecastDataModel?, String?) -> Void) {
+    private func parseJSON(data : Data , completionHundler: @escaping (ForecastDataModel?, String?) -> Void) {
            do {
         let forecastDataModel = try  JSONDecoder().decode(ForecastDataModel.self,from:(data))
             completionHundler(forecastDataModel, nil)

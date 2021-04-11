@@ -10,5 +10,4 @@ import Foundation
 
 class ErrorHandler : Decodable{
     var message : String?
-    var cod : String?
 }

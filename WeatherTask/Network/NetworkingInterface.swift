@@ -13,6 +13,8 @@ class NetworkRequest{
     func Request(url : String ,method: HTTPMethod, parameters: [String : Any]?, headers: [String: String]?, completionHundler: @escaping (AFDataResponse<Any>?,ErrorHandler?)->Void){
         print (url)
         AF.request(url, method: method, parameters: parameters ?? [String: Any](),encoding: URLEncoding.default, headers: nil).responseJSON { (response:AFDataResponse) in
+            print(response.result)
+
             switch(response.result) {
             case .success(let value):
                 print(value)

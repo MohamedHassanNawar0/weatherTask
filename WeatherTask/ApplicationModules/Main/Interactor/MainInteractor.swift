@@ -13,14 +13,10 @@ protocol APIServiceGetSuggestedProtocol {
 }
 
 class MainInteractor: APIServiceGetSuggestedProtocol {
-
-    fileprivate let AppId = "e72ca729af228beabd5d20e3b7749713"
-    fileprivate let SuggestedCitiesEndpoint = "http://api.openweathermap.org/data/2.5/find"
     
     // Simulate a long waiting for fetching Suggested Cities based on writing in search bar
     func getSuggestedCities(cityName: String, completionHundler: @escaping (ForecastDataModel?, String?) -> Void) {
-         let par = ["q":"\(cityName)" , "appid" : AppId]
-      NetworkRequest().Request(url: SuggestedCitiesEndpoint, method: .get, parameters: par, headers: nil){
+        NetworkRequest().Request(url: APIs.Instance.getCityBaseURL(cityName: cityName), method: .get, parameters: nil, headers: APIs.Instance.getHeader()){
             response , error in
             if response == nil && error == nil{
                 completionHundler(nil,nil)
@@ -41,7 +37,7 @@ class MainInteractor: APIServiceGetSuggestedProtocol {
         }
     }
     //method used to parse respone
-    func parseJSON(data : Data , completionHundler: @escaping (ForecastDataModel?, String?) -> Void) {
+    private func parseJSON(data : Data , completionHundler: @escaping (ForecastDataModel?, String?) -> Void) {
            do {
         let forecastDataModel = try  JSONDecoder().decode(ForecastDataModel.self,from:(data))
             completionHundler(forecastDataModel, nil)
