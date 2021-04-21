@@ -1,0 +1,450 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ForecastWeatherPresenter"
+provides-nominal:
+- "11WeatherTask08ForecastA9PresenterC"
+provides-member:
+- ["11WeatherTask08ForecastA9PresenterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "-"
+- !private "??"
+- "AssignmentPrecedence"
+- "CityListModelInput"
+- !private "FloatLiteralType"
+- "ForecastDataModel"
+- "ForecastInteractor"
+- "ForecastWeatherCell"
+- "ForecastWeatherPresenter"
+- "ForecastWeatherView"
+- "Int"
+- !private "IntegerLiteralType"
+- "SaveCityData"
+- "String"
+- !private "StringLiteralType"
+- !private "print"
+- !private "updateWeatherIcon"
+depends-member:
+- !private ["11WeatherTask018APIServiceForecastA8ProtocolP", "getForecastWeather"]
+- ["11WeatherTask018APIServiceForecastA8ProtocolP", "init"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["9Alamofire0A8ExtendedP", "count"]
+- !private ["9Alamofire0A8ExtendedP", "first"]
+- !private ["9Alamofire0A8ExtendedP", "subscript"]
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "dt_txt"]
+- !private ["s10ArraySliceV", "main"]
+- !private ["s10ArraySliceV", "weather"]
+- !private ["SK", "count"]
+- !private ["SK", "dt_txt"]
+- !private ["SK", "first"]
+- !private ["SK", "main"]
+- !private ["SK", "subscript"]
+- !private ["SK", "toDate"]
+- !private ["SK", "weather"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "toDate"]
+- !private ["11WeatherTask8CityDataV", "country"]
+- !private ["11WeatherTask8CityDataV", "name"]
+- !private ["11WeatherTask18CityListModelInputP", "registerCity"]
+- !private ["Sl", "count"]
+- !private ["Sl", "dt_txt"]
+- !private ["Sl", "first"]
+- !private ["Sl", "main"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "toDate"]
+- !private ["Sl", "weather"]
+- !private ["SL", "asStringToDate"]
+- !private ["SL", "asStringToTime"]
+- !private ["SL", "init"]
+- !private ["SL", "toDate"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "dt_txt"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "main"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "weather"]
+- !private ["s28CustomDebugStringConvertibleP", "asStringToDate"]
+- !private ["s28CustomDebugStringConvertibleP", "asStringToTime"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dt_txt"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "toDate"]
+- !private ["s28CustomDebugStringConvertibleP", "weather"]
+- !private ["s17CustomReflectableP", "asStringToDate"]
+- !private ["s17CustomReflectableP", "asStringToTime"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "dt_txt"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "main"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "toDate"]
+- !private ["s17CustomReflectableP", "weather"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "asStringToDate"]
+- !private ["s23CustomStringConvertibleP", "asStringToTime"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dt_txt"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "toDate"]
+- !private ["s23CustomStringConvertibleP", "weather"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "dt_txt"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "main"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "weather"]
+- !private ["10Foundation4DateV", "asStringToDate"]
+- !private ["10Foundation4DateV", "asStringToTime"]
+- !private ["Se", "asStringToDate"]
+- !private ["Se", "asStringToTime"]
+- !private ["Se", "city"]
+- !private ["Se", "count"]
+- !private ["Se", "country"]
+- !private ["Se", "dt_txt"]
+- !private ["Se", "first"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "list"]
+- !private ["Se", "main"]
+- !private ["Se", "name"]
+- !private ["Se", "subscript"]
+- !private ["Se", "temp"]
+- !private ["Se", "toDate"]
+- !private ["Se", "weather"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "asStringToDate"]
+- !private ["SE", "asStringToTime"]
+- !private ["SE", "count"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "toDate"]
+- !private ["SQ", "asStringToDate"]
+- !private ["SQ", "asStringToTime"]
+- !private ["SQ", "count"]
+- !private ["SQ", "dt_txt"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "toDate"]
+- !private ["SQ", "weather"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "dt_txt"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "main"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "weather"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "toDate"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "toDate"]
+- !private ["s26ExpressibleByStringLiteralP", "toDate"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "toDate"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["11WeatherTask17ForecastDataModelV", "city"]
+- ["11WeatherTask17ForecastDataModelV", "deinit"]
+- ["11WeatherTask17ForecastDataModelV", "init"]
+- !private ["11WeatherTask17ForecastDataModelV", "list"]
+- !private ["11WeatherTask017ForecastDataModelD0V", "dt_txt"]
+- !private ["11WeatherTask017ForecastDataModelD0V", "main"]
+- !private ["11WeatherTask017ForecastDataModelD0V", "weather"]
+- !private ["11WeatherTask18ForecastInteractorC", "deinit"]
+- !private ["11WeatherTask18ForecastInteractorC", "getForecastWeather"]
+- ["11WeatherTask18ForecastInteractorC", "init"]
+- !private ["11WeatherTask16ForecastMainDataV", "temp"]
+- !private ["11WeatherTask08ForecastA4CellP", "displayDate"]
+- !private ["11WeatherTask08ForecastA4CellP", "displayImage"]
+- !private ["11WeatherTask08ForecastA4CellP", "displayTempreture"]
+- ["11WeatherTask08ForecastA9PresenterC", "CityListModelInput"]
+- ["11WeatherTask08ForecastA9PresenterC", "ForecastDataModel"]
+- ["11WeatherTask08ForecastA9PresenterC", "ForecastInteractor"]
+- ["11WeatherTask08ForecastA9PresenterC", "ForecastWeatherCell"]
+- ["11WeatherTask08ForecastA9PresenterC", "ForecastWeatherView"]
+- ["11WeatherTask08ForecastA9PresenterC", "Int"]
+- ["11WeatherTask08ForecastA9PresenterC", "String"]
+- ["11WeatherTask08ForecastA9PresenterC", "configure"]
+- ["11WeatherTask08ForecastA9PresenterC", "deinit"]
+- !private ["11WeatherTask08ForecastA9PresenterC", "forecastWeather"]
+- ["11WeatherTask08ForecastA9PresenterC", "getForecastWeather"]
+- ["11WeatherTask08ForecastA9PresenterC", "init"]
+- !private ["11WeatherTask08ForecastA9PresenterC", "interactor"]
+- ["11WeatherTask08ForecastA9PresenterC", "model"]
+- !private ["11WeatherTask08ForecastA9PresenterC", "print"]
+- ["11WeatherTask08ForecastA9PresenterC", "saveCityData"]
+- !private ["11WeatherTask08ForecastA9PresenterC", "updateWeatherIcon"]
+- !private ["11WeatherTask08ForecastA9PresenterC", "view"]
+- ["11WeatherTask08ForecastA9PresenterC", "viewLoadData"]
+- !private ["11WeatherTask08ForecastA4ViewP", "fetchingDataSuccess"]
+- !private ["11WeatherTask08ForecastA4ViewP", "hideIndicator"]
+- !private ["11WeatherTask08ForecastA4ViewP", "showIndicator"]
+- !private ["11WeatherTask08ForecastA4ViewP", "showMessage"]
+- !private ["SH", "asStringToDate"]
+- !private ["SH", "asStringToTime"]
+- !private ["SH", "count"]
+- !private ["SH", "dt_txt"]
+- !private ["SH", "first"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "subscript"]
+- !private ["SH", "toDate"]
+- !private ["SH", "weather"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "toDate"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "toDate"]
+- !private ["SM", "count"]
+- !private ["SM", "dt_txt"]
+- !private ["SM", "first"]
+- !private ["SM", "main"]
+- !private ["SM", "subscript"]
+- !private ["SM", "weather"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "toDate"]
+- !private ["So9NSCopyingP", "toDate"]
+- !private ["So21NSItemProviderReadingP", "toDate"]
+- !private ["So21NSItemProviderWritingP", "toDate"]
+- !private ["So16NSMutableCopyingP", "toDate"]
+- !private ["So8NSObjectC", "toDate"]
+- !private ["So8NSObjectP", "toDate"]
+- !private ["So14NSSecureCodingP", "toDate"]
+- !private ["So8NSStringC", "toDate"]
+- !private ["Sj", "init"]
+- !private ["Sk", "count"]
+- !private ["Sk", "dt_txt"]
+- !private ["Sk", "first"]
+- !private ["Sk", "main"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "weather"]
+- !private ["Sm", "count"]
+- !private ["Sm", "dt_txt"]
+- !private ["Sm", "first"]
+- !private ["Sm", "main"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "toDate"]
+- !private ["Sm", "weather"]
+- !private ["10Foundation20ReferenceConvertibleP", "asStringToDate"]
+- !private ["10Foundation20ReferenceConvertibleP", "asStringToTime"]
+- !private ["s10SIMDScalarP", "init"]
+- ["11WeatherTask12SaveCityDataP", "ForecastDataModel"]
+- ["11WeatherTask12SaveCityDataP", "ForecastInteractor"]
+- !private ["11WeatherTask12SaveCityDataP", "Int"]
+- ["11WeatherTask12SaveCityDataP", ""]
+- !private ["11WeatherTask12SaveCityDataP", "forecastWeather"]
+- !private ["11WeatherTask12SaveCityDataP", "getForecastWeather"]
+- !private ["11WeatherTask12SaveCityDataP", "interactor"]
+- !private ["11WeatherTask12SaveCityDataP", "model"]
+- !private ["11WeatherTask12SaveCityDataP", "print"]
+- ["11WeatherTask12SaveCityDataP", "saveCityData"]
+- !private ["11WeatherTask12SaveCityDataP", "updateWeatherIcon"]
+- !private ["11WeatherTask12SaveCityDataP", "view"]
+- !private ["ST", "count"]
+- !private ["ST", "dt_txt"]
+- !private ["ST", "first"]
+- !private ["ST", "main"]
+- !private ["ST", "subscript"]
+- !private ["ST", "toDate"]
+- !private ["ST", "weather"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "toDate"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "toDate"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "toDate"]
+- !private ["s20TextOutputStreamableP", "toDate"]
+- !private ["9Alamofire14URLConvertibleP", "toDate"]
+- !private ["11WeatherTask0A4DataV", "id"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "dt_txt"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "main"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "weather"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "asStringToDate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "asStringToTime"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "toDate"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "dt_txt"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "main"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "weather"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "toDate"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "toDate"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "toDate"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "toDate"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "toDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "toDate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "toDate"]
+- !private ["s21_ObjectiveCBridgeableP", "asStringToDate"]
+- !private ["s21_ObjectiveCBridgeableP", "asStringToTime"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "toDate"]
+depends-nominal:
+- "11WeatherTask018APIServiceForecastA8ProtocolP"
+- !private "s18AdditiveArithmeticP"
+- !private "9Alamofire0A8ExtendedP"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "11WeatherTask8CityDataV"
+- !private "11WeatherTask18CityListModelInputP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation4DateV"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "11WeatherTask17ForecastDataModelV"
+- !private "11WeatherTask017ForecastDataModelD0V"
+- "11WeatherTask18ForecastInteractorC"
+- !private "11WeatherTask16ForecastMainDataV"
+- !private "11WeatherTask08ForecastA4CellP"
+- "11WeatherTask08ForecastA9PresenterC"
+- !private "11WeatherTask08ForecastA4ViewP"
+- !private "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- "11WeatherTask12SaveCityDataP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "11WeatherTask0A4DataV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/MohamedNawar/Desktop/weatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/PKHUD.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/weatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/weatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD.h"
+- "/Users/MohamedNawar/Desktop/weatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-umbrella.h"
+- "/Users/MohamedNawar/Desktop/weatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/MohamedNawar/Desktop/weatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-Swift.h"
+- "/Users/MohamedNawar/Desktop/weatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/MohamedNawar/Desktop/weatherTask/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/weatherTask/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d3f3fd89f5cb4000b6b21ca2fa1d9580"

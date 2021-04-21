@@ -2,12 +2,11 @@
 //  WeatherTaskTests.swift
 //  WeatherTaskTests
 //
-//  Created by Mohamed Nawar on 2/20/20.
-//  Copyright © 2020 Eslam. All rights reserved.
+//  Created by Mohamed Nawar on 2/22/20.
+//  Copyright © 2020 Mohamed Hassan Nawar. All rights reserved.
 //
 
 import XCTest
-@testable import WeatherTask
 
 class WeatherTaskTests: XCTestCase {
 
@@ -26,7 +25,7 @@ class WeatherTaskTests: XCTestCase {
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
